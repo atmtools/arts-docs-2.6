@@ -6,7 +6,7 @@
     <link href="../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ReadSplitARTSCAT &mdash; ARTS 2.6.2 documentation</title>
+  <title>ReadSplitARTSCAT &mdash; ARTS 2.6.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css" />
@@ -19,7 +19,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=3db9c557"></script>
+        <script src="../_static/documentation_options.js?v=5248d183"></script>
         <script src="../_static/doctools.js?v=888ff710"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -42,7 +42,7 @@
               <img src="../_static/arts-logo-light-bg.svg" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                2.6.2
+                2.6.4
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -129,7 +129,7 @@ information.  Be careful setting the options!</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>abs_lines</strong> (<a class="reference internal" href="pyarts.arts.ArrayOfAbsorptionLines.html#pyarts.arts.ArrayOfAbsorptionLines" title="pyarts.arts.ArrayOfAbsorptionLines"><em>ArrayOfAbsorptionLines</em></a><em>, </em><em>optional</em>) – A list of spectral line data. See <a class="reference internal" href="pyarts.workspace.Workspace.abs_lines.html#pyarts.workspace.Workspace.abs_lines" title="pyarts.workspace.Workspace.abs_lines"><code class="xref py py-attr docutils literal notranslate"><span class="pre">abs_lines</span></code></a>, defaults to <code class="docutils literal notranslate"><span class="pre">self.abs_lines</span></code> <strong>[OUT]</strong></p></li>
 <li><p><strong>abs_species</strong> (<a class="reference internal" href="pyarts.arts.ArrayOfArrayOfSpeciesTag.html#pyarts.arts.ArrayOfArrayOfSpeciesTag" title="pyarts.arts.ArrayOfArrayOfSpeciesTag"><em>ArrayOfArrayOfSpeciesTag</em></a><em>, </em><em>optional</em>) – Tag groups for gas absorption. See <a class="reference internal" href="pyarts.workspace.Workspace.abs_species.html#pyarts.workspace.Workspace.abs_species" title="pyarts.workspace.Workspace.abs_species"><code class="xref py py-attr docutils literal notranslate"><span class="pre">abs_species</span></code></a>, defaults to <code class="docutils literal notranslate"><span class="pre">self.abs_species</span></code> <strong>[IN]</strong></p></li>
-<li><p><strong>basename</strong> (<a class="reference internal" href="pyarts.arts.String.html#pyarts.arts.String" title="pyarts.arts.String"><em>String</em></a>) – Path to the files. <strong>[IN]</strong></p></li>
+<li><p><strong>basename</strong> (<a class="reference internal" href="pyarts.arts.String.html#pyarts.arts.String" title="pyarts.arts.String"><em>String</em></a>) – Basename of the files to read. If it points to a directory, it has to end with a /. <strong>[IN]</strong></p></li>
 <li><p><strong>fmin</strong> (<a class="reference internal" href="pyarts.arts.Numeric.html#pyarts.arts.Numeric" title="pyarts.arts.Numeric"><em>Numeric</em></a><em>, </em><em>optional</em>) – Minimum frequency of read lines. Defaults to <code class="docutils literal notranslate"><span class="pre">-1e99</span></code> <strong>[IN]</strong></p></li>
 <li><p><strong>fmax</strong> (<a class="reference internal" href="pyarts.arts.Numeric.html#pyarts.arts.Numeric" title="pyarts.arts.Numeric"><em>Numeric</em></a><em>, </em><em>optional</em>) – Maximum frequency of read lines. Defaults to <code class="docutils literal notranslate"><span class="pre">1e99</span></code> <strong>[IN]</strong></p></li>
 <li><p><strong>globalquantumnumbers</strong> (<a class="reference internal" href="pyarts.arts.String.html#pyarts.arts.String" title="pyarts.arts.String"><em>String</em></a><em>, </em><em>optional</em>) – Global quantum number list (space-separated). Defaults to <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code> <strong>[IN]</strong></p></li>
