@@ -1,0 +1,6 @@
+zeeman_magnetic_fieldFromPath
+========================================================
+
+.. currentmodule:: pyarts.workspace
+
+.. automethod:: Workspace.zeeman_magnetic_fieldFromPath

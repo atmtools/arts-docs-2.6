@@ -805,6 +805,7 @@
     * :func:`~pyarts.workspace.Workspace.sunsAddSingleBlackbody`
     * :func:`~pyarts.workspace.Workspace.sunsAddSingleFromGrid`
     * :func:`~pyarts.workspace.Workspace.sunsAddSingleFromGridAtLocation`
+    * :func:`~pyarts.workspace.Workspace.sunsChangeGeometry`
     * :func:`~pyarts.workspace.Workspace.sunsOff`
     * :func:`~pyarts.workspace.Workspace.surface_complex_refr_indexFromGriddedField5`
     * :func:`~pyarts.workspace.Workspace.surface_reflectivityFromGriddedField6`
@@ -979,5 +980,6 @@
     * :func:`~pyarts.workspace.Workspace.z_fieldFromHSE`
     * :func:`~pyarts.workspace.Workspace.z_surfaceConstantAltitude`
     * :func:`~pyarts.workspace.Workspace.z_surfaceFromFileAndGrid`
+    * :func:`~pyarts.workspace.Workspace.zeeman_magnetic_fieldFromPath`
     * :func:`~pyarts.workspace.Workspace.ZFromPSimple`
 

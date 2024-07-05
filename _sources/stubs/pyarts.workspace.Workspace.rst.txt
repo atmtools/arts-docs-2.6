@@ -917,6 +917,7 @@
       ~Workspace.sunsAddSingleBlackbody
       ~Workspace.sunsAddSingleFromGrid
       ~Workspace.sunsAddSingleFromGridAtLocation
+      ~Workspace.sunsChangeGeometry
       ~Workspace.sunsOff
       ~Workspace.surfaceBlackbody
       ~Workspace.surfaceFastem
@@ -999,6 +1000,7 @@
       ~Workspace.z_fieldFromHSE
       ~Workspace.z_surfaceConstantAltitude
       ~Workspace.z_surfaceFromFileAndGrid
+      ~Workspace.zeeman_magnetic_fieldFromPath
    
    
 

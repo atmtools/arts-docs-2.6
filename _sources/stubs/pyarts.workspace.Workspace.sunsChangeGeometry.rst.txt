@@ -1,0 +1,6 @@
+sunsChangeGeometry
+=============================================
+
+.. currentmodule:: pyarts.workspace
+
+.. automethod:: Workspace.sunsChangeGeometry

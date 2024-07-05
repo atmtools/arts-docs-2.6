@@ -158,6 +158,14 @@ Classes
 
 
 
+Functions
+---------
+
+.. autosummary::
+   :toctree: stubs
+
+   igrf
+
 
 
 pyarts.arts.constants

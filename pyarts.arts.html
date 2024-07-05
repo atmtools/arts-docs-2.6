@@ -6,7 +6,7 @@
     <link href="_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pyarts.arts &mdash; ARTS 2.6.4 documentation</title>
+  <title>pyarts.arts &mdash; ARTS 2.6.6 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
@@ -19,9 +19,10 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=5248d183"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/documentation_options.js?v=c1c8dff0"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -42,7 +43,7 @@
               <img src="_static/arts-logo-light-bg.svg" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                2.6.4
+                2.6.6
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -205,42 +206,46 @@
 <li class="toctree-l4"><a class="reference internal" href="stubs/pyarts.arts.ZeemanPolarization.html">ZeemanPolarization</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.constants">pyarts.arts.constants</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#functions">Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="stubs/pyarts.arts.igrf.html">igrf</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.convert">pyarts.arts.convert</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.constants">pyarts.arts.constants</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id1">Functions</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.docserver">pyarts.arts.docserver</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.convert">pyarts.arts.convert</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id2">Functions</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.globals">pyarts.arts.globals</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id3">Classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.docserver">pyarts.arts.docserver</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Functions</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.hitran">pyarts.arts.hitran</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.globals">pyarts.arts.globals</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Classes</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#id5">Functions</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.math">pyarts.arts.math</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.hitran">pyarts.arts.hitran</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#id6">Functions</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.math">pyarts.arts.math</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Functions</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.options">pyarts.arts.options</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id7">Classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Classes</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.physics">pyarts.arts.physics</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id8">Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Functions</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#module-pyarts.arts.predef">pyarts.arts.predef</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id9">Classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id10">Functions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Functions</a></li>
 </ul>
 </li>
 </ul>
@@ -727,11 +732,21 @@
 </tbody>
 </table>
 </section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h2>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.igrf.html#pyarts.arts.igrf" title="pyarts.arts.igrf"><code class="xref py py-obj docutils literal notranslate"><span class="pre">igrf</span></code></a>(z_field, lat_grid, lon_grid, t, ell)</p></td>
+<td><p>Compute the magnetic field according to IGRF</p></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="module-pyarts.arts.constants">
 <span id="pyarts-arts-constants"></span><h2>pyarts.arts.constants<a class="headerlink" href="#module-pyarts.arts.constants" title="Link to this heading"></a></h2>
 <p>Contain copies of constants of Arts internals</p>
-<section id="functions">
-<h3>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h3>
+<section id="id1">
+<h3>Functions<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.constants.c.html#pyarts.arts.constants.c" title="pyarts.arts.constants.c"><code class="xref py py-obj docutils literal notranslate"><span class="pre">c</span></code></a></p></td>
@@ -757,8 +772,8 @@
 <span id="pyarts-arts-convert"></span><h2>pyarts.arts.convert<a class="headerlink" href="#module-pyarts.arts.convert" title="Link to this heading"></a></h2>
 <p>Contains several unit conversion functions used in Arts</p>
 <p>These all should work with any array-like type</p>
-<section id="id1">
-<h3>Functions<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<section id="id2">
+<h3>Functions<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.convert.freq2kaycm.html#pyarts.arts.convert.freq2kaycm" title="pyarts.arts.convert.freq2kaycm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">freq2kaycm</span></code></a>(f)</p></td>
@@ -804,8 +819,8 @@
 <section id="module-pyarts.arts.docserver">
 <span id="pyarts-arts-docserver"></span><h2>pyarts.arts.docserver<a class="headerlink" href="#module-pyarts.arts.docserver" title="Link to this heading"></a></h2>
 <p>Run the ARTS documentation server</p>
-<section id="id2">
-<h3>Functions<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<section id="id3">
+<h3>Functions<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.docserver.run.html#pyarts.arts.docserver.run" title="pyarts.arts.docserver.run"><code class="xref py py-obj docutils literal notranslate"><span class="pre">run</span></code></a>([port, baseurl, daemon])</p></td>
@@ -817,8 +832,8 @@
 </section>
 <section id="module-pyarts.arts.globals">
 <span id="pyarts-arts-globals"></span><h2>pyarts.arts.globals<a class="headerlink" href="#module-pyarts.arts.globals" title="Link to this heading"></a></h2>
-<section id="id3">
-<h3>Classes<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h3>Classes<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.globals.ArrayOfGroupRecord.html#pyarts.arts.globals.ArrayOfGroupRecord" title="pyarts.arts.globals.ArrayOfGroupRecord"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ArrayOfGroupRecord</span></code></a></p></td>
@@ -833,8 +848,8 @@
 </tbody>
 </table>
 </section>
-<section id="id4">
-<h3>Functions<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<section id="id5">
+<h3>Functions<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.globals.get_agenda_data.html#pyarts.arts.globals.get_agenda_data" title="pyarts.arts.globals.get_agenda_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_agenda_data</span></code></a>()</p></td>
@@ -883,8 +898,8 @@
 <section id="module-pyarts.arts.hitran">
 <span id="pyarts-arts-hitran"></span><h2>pyarts.arts.hitran<a class="headerlink" href="#module-pyarts.arts.hitran" title="Link to this heading"></a></h2>
 <p>Helpers to interface with HITRAN</p>
-<section id="id5">
-<h3>Functions<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<section id="id6">
+<h3>Functions<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.hitran.quantumidentity.html#pyarts.arts.hitran.quantumidentity" title="pyarts.arts.hitran.quantumidentity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">quantumidentity</span></code></a>(mol, iso)</p></td>
@@ -900,8 +915,8 @@
 <section id="module-pyarts.arts.math">
 <span id="pyarts-arts-math"></span><h2>pyarts.arts.math<a class="headerlink" href="#module-pyarts.arts.math" title="Link to this heading"></a></h2>
 <p>Contains select mathematics from Arts internal functions</p>
-<section id="id6">
-<h3>Functions<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<section id="id7">
+<h3>Functions<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.math.dwigner3j.html#pyarts.arts.math.dwigner3j" title="pyarts.arts.math.dwigner3j"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dwigner3j</span></code></a>(M, J1, J2, J)</p></td>
@@ -926,8 +941,8 @@
 <section id="module-pyarts.arts.options">
 <span id="pyarts-arts-options"></span><h2>pyarts.arts.options<a class="headerlink" href="#module-pyarts.arts.options" title="Link to this heading"></a></h2>
 <p>Various named options of Arts</p>
-<section id="id7">
-<h3>Classes<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<section id="id8">
+<h3>Classes<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.options.AbsorptionCutoffType.html#pyarts.arts.options.AbsorptionCutoffType" title="pyarts.arts.options.AbsorptionCutoffType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AbsorptionCutoffType</span></code></a></p></td>
@@ -1075,8 +1090,8 @@
 <section id="module-pyarts.arts.physics">
 <span id="pyarts-arts-physics"></span><h2>pyarts.arts.physics<a class="headerlink" href="#module-pyarts.arts.physics" title="Link to this heading"></a></h2>
 <p>Contains simple physics functions in arts</p>
-<section id="id8">
-<h3>Functions<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<section id="id9">
+<h3>Functions<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.physics.number_density.html#pyarts.arts.physics.number_density" title="pyarts.arts.physics.number_density"><code class="xref py py-obj docutils literal notranslate"><span class="pre">number_density</span></code></a>(*args, **kwargs)</p></td>
@@ -1089,8 +1104,8 @@
 <section id="module-pyarts.arts.predef">
 <span id="pyarts-arts-predef"></span><h2>pyarts.arts.predef<a class="headerlink" href="#module-pyarts.arts.predef" title="Link to this heading"></a></h2>
 <p>Contains predefined absorption models</p>
-<section id="id9">
-<h3>Classes<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<section id="id10">
+<h3>Classes<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.predef.MTCKD400WaterData.html#pyarts.arts.predef.MTCKD400WaterData" title="pyarts.arts.predef.MTCKD400WaterData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MTCKD400WaterData</span></code></a></p></td>
@@ -1099,8 +1114,8 @@
 </tbody>
 </table>
 </section>
-<section id="id10">
-<h3>Functions<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<section id="id11">
+<h3>Functions<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="stubs/pyarts.arts.predef.get_co2_ckdmt252.html#pyarts.arts.predef.get_co2_ckdmt252" title="pyarts.arts.predef.get_co2_ckdmt252"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_co2_ckdmt252</span></code></a>(f_grid, rtp_pressure, ...)</p></td>

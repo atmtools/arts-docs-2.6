@@ -1,0 +1,6 @@
+﻿igrf
+================
+
+.. currentmodule:: pyarts.arts
+
+.. autofunction:: igrf
