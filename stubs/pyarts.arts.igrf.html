@@ -6,7 +6,7 @@
     <link href="../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>igrf &mdash; ARTS 2.6.6 documentation</title>
+  <title>igrf &mdash; ARTS 2.6.8 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css" />
@@ -19,7 +19,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c1c8dff0"></script>
+        <script src="../_static/documentation_options.js?v=8daaf82b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -42,7 +42,7 @@
               <img src="../_static/arts-logo-light-bg.svg" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                2.6.6
+                2.6.8
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -123,7 +123,7 @@
 <h1>igrf<a class="headerlink" href="#igrf" title="Link to this heading"></a></h1>
 <dl class="py function">
 <dt class="sig sig-object py" id="pyarts.arts.igrf">
-<span class="sig-prename descclassname"><span class="pre">pyarts.arts.</span></span><span class="sig-name descname"><span class="pre">igrf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">z_field:</span> <span class="pre">pyarts.arts.Tensor3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lat_grid:</span> <span class="pre">pyarts.arts.Vector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lon_grid:</span> <span class="pre">pyarts.arts.Vector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">t:</span> <span class="pre">pyarts.arts.Time</span> <span class="pre">=</span> <span class="pre">2024-07-05</span> <span class="pre">16:24:49.078806162</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ell:</span> <span class="pre">pyarts.arts.Vector</span> <span class="pre">=</span> <span class="pre">6378137</span> <span class="pre">0.081819190842621</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Annotated[List[pyarts.arts.Tensor3],</span> <span class="pre">FixedSize(3)]</span></span></span><a class="headerlink" href="#pyarts.arts.igrf" title="Link to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">pyarts.arts.</span></span><span class="sig-name descname"><span class="pre">igrf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">z_field:</span> <span class="pre">pyarts.arts.Tensor3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lat_grid:</span> <span class="pre">pyarts.arts.Vector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lon_grid:</span> <span class="pre">pyarts.arts.Vector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">t:</span> <span class="pre">pyarts.arts.Time</span> <span class="pre">=</span> <span class="pre">2024-09-23</span> <span class="pre">11:12:45.903442860</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ell:</span> <span class="pre">pyarts.arts.Vector</span> <span class="pre">=</span> <span class="pre">6378137</span> <span class="pre">0.081819190842621</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Annotated</span><span class="p"><span class="pre">[</span></span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="pyarts.arts.Tensor3.html#pyarts.arts.Tensor3" title="pyarts.arts.Tensor3"><span class="pre">pyarts.arts.Tensor3</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">FixedSize</span><span class="p"><span class="pre">(</span></span><span class="m"><span class="pre">3</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pyarts.arts.igrf" title="Link to this definition"></a></dt>
 <dd><p>Compute the magnetic field according to IGRF</p>
 <p>The coefficients are builtin and available for the years 2000-2020.
 No secular variation is taken into account beyond an interpolation

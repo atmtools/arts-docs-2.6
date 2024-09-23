@@ -6,7 +6,7 @@
     <link href="../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sun &mdash; ARTS 2.6.6 documentation</title>
+  <title>Sun &mdash; ARTS 2.6.8 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css" />
@@ -19,7 +19,7 @@
   
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c1c8dff0"></script>
+        <script src="../_static/documentation_options.js?v=8daaf82b"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -42,7 +42,7 @@
               <img src="../_static/arts-logo-light-bg.svg" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                2.6.6
+                2.6.8
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -267,10 +267,9 @@
 <dt class="sig sig-object py" id="pyarts.arts.Sun">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyarts.arts.</span></span><span class="sig-name descname"><span class="pre">Sun</span></span><a class="headerlink" href="#pyarts.arts.Sun" title="Link to this definition"></a></dt>
 <dd><p>A single sun.</p>
-<p>Each sun is described by a struct with its spectrum, radius
-distance from center of planet to center of sun,
-temperature (if possible), latitude in the sky of the planet,
-longitude in the sky of the planet and the type</p>
+<p>Each sun is described by a struct with its spectral irradiance, radius
+distance from center of planet to center of sun, latitude in the sky of the planet,
+and longitude in the sky of the planet.  Optionally, a free-form text description of the sun may be available.</p>
 <dl class="py method">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pyarts.arts.Sun" title="pyarts.arts.Sun"><span class="pre">pyarts.arts.Sun</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://docs.python.org/3.11/library/constants.html#None" title="(in Python v3.11)"><span class="pre">None</span></a></span></span></dt>
@@ -313,7 +312,7 @@ longitude in the sky of the planet and the type</p>
 <td><p><a class="reference external" href="https://docs.python.org/3.11/library/functions.html#float" title="(in Python v3.11)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a> Sun radius</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="pyarts.arts.Sun.spectrum.html#pyarts.arts.Sun.spectrum" title="pyarts.arts.Sun.spectrum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spectrum</span></code></a></p></td>
-<td><p><a class="reference internal" href="pyarts.arts.Matrix.html#pyarts.arts.Matrix" title="pyarts.arts.Matrix"><code class="xref py py-class docutils literal notranslate"><span class="pre">Matrix</span></code></a> Sun spectrum, monochrmatic radiance spectrum at the surface of the sun</p></td>
+<td><p><a class="reference internal" href="pyarts.arts.Matrix.html#pyarts.arts.Matrix" title="pyarts.arts.Matrix"><code class="xref py py-class docutils literal notranslate"><span class="pre">Matrix</span></code></a> Sun spectrum, spectral irradiance at the position of the sun</p></td>
 </tr>
 </tbody>
 </table>
