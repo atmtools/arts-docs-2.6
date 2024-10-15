@@ -786,6 +786,7 @@
       ~Workspace.ppath_stepGeometric
       ~Workspace.ppath_stepRefractionBasic
       ~Workspace.ppath_step_agendaSet
+      ~Workspace.ppvar_magFromPath
       ~Workspace.ppvar_optical_depthFromPpvar_trans_cumulat
       ~Workspace.predefined_model_dataAddWaterMTCKD400
       ~Workspace.predefined_model_dataInit
@@ -1000,7 +1001,7 @@
       ~Workspace.z_fieldFromHSE
       ~Workspace.z_surfaceConstantAltitude
       ~Workspace.z_surfaceFromFileAndGrid
-      ~Workspace.zeeman_magnetic_fieldFromPath
+      ~Workspace.zeeman_magnetic_fieldCalc
    
    
 

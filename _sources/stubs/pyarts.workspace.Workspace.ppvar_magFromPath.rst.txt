@@ -1,0 +1,6 @@
+ppvar_magFromPath
+============================================
+
+.. currentmodule:: pyarts.workspace
+
+.. automethod:: Workspace.ppvar_magFromPath

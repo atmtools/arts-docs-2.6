@@ -612,6 +612,7 @@
     * :func:`~pyarts.workspace.Workspace.PpathSet`
     * :func:`~pyarts.workspace.Workspace.ppathStepByStep`
     * :func:`~pyarts.workspace.Workspace.ppathWriteXMLPartial`
+    * :func:`~pyarts.workspace.Workspace.ppvar_magFromPath`
     * :func:`~pyarts.workspace.Workspace.ppvar_optical_depthFromPpvar_trans_cumulat`
     * :func:`~pyarts.workspace.Workspace.predefined_model_dataAddWaterMTCKD400`
     * :func:`~pyarts.workspace.Workspace.predefined_model_dataInit`
@@ -980,6 +981,6 @@
     * :func:`~pyarts.workspace.Workspace.z_fieldFromHSE`
     * :func:`~pyarts.workspace.Workspace.z_surfaceConstantAltitude`
     * :func:`~pyarts.workspace.Workspace.z_surfaceFromFileAndGrid`
-    * :func:`~pyarts.workspace.Workspace.zeeman_magnetic_fieldFromPath`
+    * :func:`~pyarts.workspace.Workspace.zeeman_magnetic_fieldCalc`
     * :func:`~pyarts.workspace.Workspace.ZFromPSimple`
 
