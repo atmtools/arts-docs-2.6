@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pyarts.utils.common &mdash; ARTS 2.6.12 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
+  <title>pyarts.utils.common &mdash; ARTS 2.6.14 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
       <link rel="stylesheet" type="text/css" href="../../../_static/custom.css?v=0ed3666c" />
@@ -14,7 +14,7 @@
   
       <script src="../../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../../_static/documentation_options.js?v=b0dc4b70"></script>
+      <script src="../../../_static/documentation_options.js?v=df2d5fa4"></script>
       <script src="../../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../_static/js/theme.js"></script>
@@ -82,9 +82,9 @@
 <span class="sd">&quot;&quot;&quot;Miscellaneous convenience functions.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">warnings</span> <span class="kn">import</span> <span class="n">warn</span>
-<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="p">(</span><span class="n">partial</span><span class="p">,</span> <span class="n">wraps</span><span class="p">)</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">warnings</span><span class="w"> </span><span class="kn">import</span> <span class="n">warn</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">functools</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span><span class="n">partial</span><span class="p">,</span> <span class="n">wraps</span><span class="p">)</span>
 
 <span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s1">&#39;deprecated&#39;</span><span class="p">,</span>
@@ -97,7 +97,7 @@
 
 <div class="viewcode-block" id="deprecated">
 <a class="viewcode-back" href="../../../stubs/pyarts.utils.common.deprecated.html#pyarts.utils.common.deprecated">[docs]</a>
-<span class="k">def</span> <span class="nf">deprecated</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">new_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">deprecated</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">new_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Decorator which can be used to mark functions as deprecated.</span>
 
 <span class="sd">    Examples:</span>
@@ -129,7 +129,7 @@
 
     <span class="c1"># Wrapper that prints the warning before calling the deprecated function.</span>
     <span class="nd">@wraps</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="n">warn</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">category</span><span class="o">=</span><span class="ne">DeprecationWarning</span><span class="p">,</span> <span class="n">stacklevel</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
@@ -156,7 +156,7 @@
 
 <div class="viewcode-block" id="unique">
 <a class="viewcode-back" href="../../../stubs/pyarts.utils.common.unique.html#pyarts.utils.common.unique">[docs]</a>
-<span class="k">def</span> <span class="nf">unique</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">unique</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Remove duplicates from list whilst keeping the original order</span>
 
 <span class="sd">    Notes:</span>
@@ -183,7 +183,7 @@
 
 <div class="viewcode-block" id="path_append">
 <a class="viewcode-back" href="../../../stubs/pyarts.utils.common.path_append.html#pyarts.utils.common.path_append">[docs]</a>
-<span class="k">def</span> <span class="nf">path_append</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">path_append</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Append a directory to environment path variable.</span>
 
 <span class="sd">    Append entries to colon-separated variables (e.g. the system path).</span>
@@ -208,7 +208,7 @@
 
 <div class="viewcode-block" id="path_prepend">
 <a class="viewcode-back" href="../../../stubs/pyarts.utils.common.path_prepend.html#pyarts.utils.common.path_prepend">[docs]</a>
-<span class="k">def</span> <span class="nf">path_prepend</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">path_prepend</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Prepend a directory to environment path variable.</span>
 
 <span class="sd">    Append entries to colon-separated variables (e.g. the system path).</span>
@@ -233,7 +233,7 @@
 
 <div class="viewcode-block" id="path_remove">
 <a class="viewcode-back" href="../../../stubs/pyarts.utils.common.path_remove.html#pyarts.utils.common.path_remove">[docs]</a>
-<span class="k">def</span> <span class="nf">path_remove</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">path_remove</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;PATH&#39;</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Remove a directory from environment path variable.</span>
 
 <span class="sd">    Remove entries from colon-separated variables (e.g. the system path).</span>

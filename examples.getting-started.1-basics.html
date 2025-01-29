@@ -8,8 +8,8 @@
     <link href="_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>1. Basics &mdash; ARTS 2.6.12 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+  <title>1. Basics &mdash; ARTS 2.6.14 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=0ed3666c" />
@@ -17,7 +17,7 @@
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=b0dc4b70"></script>
+      <script src="_static/documentation_options.js?v=df2d5fa4"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -119,7 +119,7 @@
 all pyarts simulations.</p>
 <div class="highlight-python notranslate" id="id1"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># The first step is to import the pyarts package. This will make all</span>
 <span class="linenos"> 2</span><span class="c1"># pyarts modules available to you.</span>
-<span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">pyarts</span>
+<span class="linenos"> 3</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
 <span class="linenos"> 4</span>
 <span class="linenos"> 5</span><span class="c1"># The Workspace class is the common entry point for all pyarts simulations.</span>
 <span class="linenos"> 6</span><span class="c1"># It is used to interface with the ARTS C++ library and to manage the</span>
@@ -139,8 +139,8 @@ workspace variables are set depends on the constructors or __init__
 methods available for the respective ARTS classes.  We hope that most
 of our constructors make pythonic sense</p>
 <div class="highlight-python notranslate" id="id2"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the module</span>
-<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">pyarts</span>
-<span class="linenos"> 3</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  <span class="c1"># For some of the examples</span>
+<span class="linenos"> 2</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
+<span class="linenos"> 3</span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>  <span class="c1"># For some of the examples</span>
 <span class="linenos"> 4</span>
 <span class="linenos"> 5</span>
 <span class="linenos"> 6</span><span class="c1"># Create a workspace</span>
@@ -244,7 +244,7 @@ of our constructors make pythonic sense</p>
 <h2>3. Loading data from file<a class="headerlink" href="#loading-data-from-file" title="Link to this heading"></a></h2>
 <p>This example shows how to load data from a file into a workspace variable.</p>
 <div class="highlight-python notranslate" id="id3"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the module</span>
-<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">pyarts</span>
+<span class="linenos"> 2</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
 <span class="linenos"> 3</span>
 <span class="linenos"> 4</span>
 <span class="linenos"> 5</span><span class="c1"># Create a workspace</span>
@@ -323,7 +323,7 @@ of our constructors make pythonic sense</p>
 We have shown this in previous examples, but here we will
 explain some details.</p>
 <div class="highlight-python notranslate" id="id4"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1"># Import the module</span>
-<span class="linenos"> 2</span><span class="kn">import</span> <span class="nn">pyarts</span>
+<span class="linenos"> 2</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
 <span class="linenos"> 3</span>
 <span class="linenos"> 4</span>
 <span class="linenos"> 5</span><span class="c1"># Create a workspace</span>
@@ -387,7 +387,7 @@ explain some details.</p>
 <h2>5. Create an agenda<a class="headerlink" href="#create-an-agenda" title="Link to this heading"></a></h2>
 <p>This will explain how to create an agenda and set it on the workspace.</p>
 <div class="highlight-python notranslate" id="id5"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="c1"># Import the module</span>
-<span class="linenos">  2</span><span class="kn">import</span> <span class="nn">pyarts</span>
+<span class="linenos">  2</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
 <span class="linenos">  3</span>
 <span class="linenos">  4</span>
 <span class="linenos">  5</span><span class="c1"># Create a workspace</span>
@@ -419,7 +419,7 @@ explain some details.</p>
 <span class="linenos"> 31</span><span class="sd">can be created by the following, decorated code:</span>
 <span class="linenos"> 32</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="linenos"> 33</span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span>
-<span class="linenos"> 34</span><span class="k">def</span> <span class="nf">cosmic_background</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="linenos"> 34</span><span class="k">def</span><span class="w"> </span><span class="nf">cosmic_background</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
 <span class="linenos"> 35</span>    <span class="n">ws</span><span class="o">.</span><span class="n">MatrixCBR</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">iy</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">)</span>
 <span class="linenos"> 36</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_pos</span><span class="p">)</span>
 <span class="linenos"> 37</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_los</span><span class="p">)</span>
@@ -438,7 +438,7 @@ explain some details.</p>
 <span class="linenos"> 50</span><span class="sd">workspace input as a named-argument to the decorator:</span>
 <span class="linenos"> 51</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="linenos"> 52</span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">)</span>
-<span class="linenos"> 53</span><span class="k">def</span> <span class="nf">cosmic_background_instant</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="linenos"> 53</span><span class="k">def</span><span class="w"> </span><span class="nf">cosmic_background_instant</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
 <span class="linenos"> 54</span>    <span class="n">ws</span><span class="o">.</span><span class="n">MatrixCBR</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">iy</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">)</span>
 <span class="linenos"> 55</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_pos</span><span class="p">)</span>
 <span class="linenos"> 56</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_los</span><span class="p">)</span>
@@ -453,7 +453,7 @@ explain some details.</p>
 <span class="linenos"> 65</span><span class="sd">the &quot;set_agenda=True&quot; argument to the decorator:</span>
 <span class="linenos"> 66</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="linenos"> 67</span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">,</span> <span class="n">set_agenda</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="linenos"> 68</span><span class="k">def</span> <span class="nf">cosmic_background_set</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="linenos"> 68</span><span class="k">def</span><span class="w"> </span><span class="nf">cosmic_background_set</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
 <span class="linenos"> 69</span>    <span class="n">ws</span><span class="o">.</span><span class="n">MatrixCBR</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">iy</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">)</span>
 <span class="linenos"> 70</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_pos</span><span class="p">)</span>
 <span class="linenos"> 71</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_los</span><span class="p">)</span>
@@ -473,7 +473,7 @@ explain some details.</p>
 <span class="linenos"> 85</span><span class="sd">the workspace automatically:</span>
 <span class="linenos"> 86</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="linenos"> 87</span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">,</span> <span class="n">set_agenda</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="linenos"> 88</span><span class="k">def</span> <span class="nf">iy_space_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="linenos"> 88</span><span class="k">def</span><span class="w"> </span><span class="nf">iy_space_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
 <span class="linenos"> 89</span>    <span class="n">ws</span><span class="o">.</span><span class="n">MatrixCBR</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">iy</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">)</span>
 <span class="linenos"> 90</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_pos</span><span class="p">)</span>
 <span class="linenos"> 91</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_los</span><span class="p">)</span>
@@ -486,7 +486,7 @@ explain some details.</p>
 <span class="linenos"> 98</span><span class="sd">&quot;allow_callbacks=True&quot; argument to the decorator:</span>
 <span class="linenos"> 99</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="linenos">100</span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">,</span> <span class="n">set_agenda</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">allow_callbacks</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="linenos">101</span><span class="k">def</span> <span class="nf">iy_space_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="linenos">101</span><span class="k">def</span><span class="w"> </span><span class="nf">iy_space_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
 <span class="linenos">102</span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Running iy_space_agenda&quot;</span><span class="p">)</span>
 <span class="linenos">103</span>    <span class="n">ws</span><span class="o">.</span><span class="n">MatrixCBR</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">iy</span><span class="p">,</span> <span class="n">f</span><span class="o">=</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">)</span>
 <span class="linenos">104</span>    <span class="n">ws</span><span class="o">.</span><span class="n">Ignore</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">rtp_pos</span><span class="p">)</span>
@@ -522,9 +522,9 @@ explain some details.</p>
 </pre></div>
 </div>
 <p>Python conversion:</p>
-<div class="highlight-python notranslate" id="id6"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="linenos">2</span><span class="kn">import</span> <span class="nn">pyarts</span>
-<span class="linenos">3</span><span class="kn">from</span> <span class="nn">pyarts.workspace</span> <span class="kn">import</span> <span class="n">Workspace</span><span class="p">,</span> <span class="n">arts_agenda</span>
+<div class="highlight-python notranslate" id="id6"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="linenos">2</span><span class="kn">import</span><span class="w"> </span><span class="nn">pyarts</span>
+<span class="linenos">3</span><span class="kn">from</span><span class="w"> </span><span class="nn">pyarts.workspace</span><span class="w"> </span><span class="kn">import</span> <span class="n">Workspace</span><span class="p">,</span> <span class="n">arts_agenda</span>
 <span class="linenos">4</span><span class="n">ws</span> <span class="o">=</span> <span class="n">Workspace</span><span class="p">(</span><span class="n">verbosity</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="linenos">5</span><span class="n">ws</span><span class="o">.</span><span class="n">VectorNLinSpace</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">f_grid</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">320000000000.0</span><span class="p">,</span> <span class="mf">322000000000.0</span><span class="p">)</span>
 </pre></div>

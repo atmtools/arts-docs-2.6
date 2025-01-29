@@ -8,8 +8,8 @@
     <link href="../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>arts_agenda &mdash; ARTS 2.6.12 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+  <title>arts_agenda &mdash; ARTS 2.6.14 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css" />
       <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=0ed3666c" />
@@ -17,7 +17,7 @@
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=b0dc4b70"></script>
+      <script src="../_static/documentation_options.js?v=df2d5fa4"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -123,7 +123,7 @@ be copied into an ARTS agenda.</p>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">ws</span> <span class="o">=</span> <span class="n">pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">Workspace</span><span class="p">()</span>
 
 <span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">iy_main_agenda_clearsky</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">iy_main_agenda_clearsky</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">ppathCalc</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">iyClearsky</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">VectorSet</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">geo_pos</span><span class="p">,</span> <span class="p">[])</span>
@@ -137,7 +137,7 @@ workspace agenda):</p>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">ws</span> <span class="o">=</span> <span class="n">pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">Workspace</span><span class="p">()</span>
 
 <span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">,</span> <span class="n">set_agenda</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">iy_main_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">iy_main_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">ppathCalc</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">iyClearsky</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">VectorSet</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">geo_pos</span><span class="p">,</span> <span class="p">[])</span>
@@ -159,7 +159,7 @@ callbacks.  <em>Do this at your own risk</em>.</p>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">ws</span> <span class="o">=</span> <span class="n">pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">Workspace</span><span class="p">()</span>
 
 <span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span><span class="p">(</span><span class="n">ws</span><span class="o">=</span><span class="n">ws</span><span class="p">,</span> <span class="n">allow_callbacks</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">python_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">python_agenda</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Python says &#39;hi&#39;.&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -171,7 +171,7 @@ appended in place to the agenda</p>
 multiple workspaces later, use the <code class="xref py py-class docutils literal notranslate"><span class="pre">DelayedAgenda</span></code> class.
 A <code class="xref py py-class docutils literal notranslate"><span class="pre">DelayedAgenda</span></code> is created by omitting the ws keyword argument:</p>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@pyarts</span><span class="o">.</span><span class="n">workspace</span><span class="o">.</span><span class="n">arts_agenda</span>
-<span class="k">def</span> <span class="nf">iy_main_agenda_clearsky</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">iy_main_agenda_clearsky</span><span class="p">(</span><span class="n">ws</span><span class="p">):</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">ppathCalc</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">iyClearsky</span><span class="p">()</span>
     <span class="n">ws</span><span class="o">.</span><span class="n">VectorSet</span><span class="p">(</span><span class="n">ws</span><span class="o">.</span><span class="n">geo_pos</span><span class="p">,</span> <span class="p">[])</span>
