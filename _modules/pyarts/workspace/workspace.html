@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pyarts.workspace.workspace &mdash; ARTS 2.6.16 documentation</title>
+  <title>pyarts.workspace.workspace &mdash; ARTS 2.6.18 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
@@ -14,7 +14,7 @@
   
       <script src="../../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../../_static/documentation_options.js?v=4cad51d7"></script>
+      <script src="../../../_static/documentation_options.js?v=00cf760c"></script>
       <script src="../../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../_static/js/theme.js"></script>
@@ -81,7 +81,7 @@
 <span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">ast</span><span class="w"> </span><span class="kn">import</span> <span class="n">parse</span><span class="p">,</span> <span class="n">Call</span><span class="p">,</span> <span class="n">Name</span><span class="p">,</span> <span class="n">Expression</span><span class="p">,</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">FunctionDef</span><span class="p">,</span> \
-    <span class="n">Starred</span><span class="p">,</span> <span class="n">Module</span><span class="p">,</span> <span class="n">Str</span>
+    <span class="n">Starred</span><span class="p">,</span> <span class="n">Module</span><span class="p">,</span> <span class="n">Constant</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">inspect</span><span class="w"> </span><span class="kn">import</span> <span class="n">getsource</span><span class="p">,</span> <span class="n">getclosurevars</span><span class="p">,</span> <span class="n">ismodule</span><span class="p">,</span> <span class="n">isclass</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">copy</span><span class="w"> </span><span class="kn">import</span> <span class="n">copy</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Callable</span>
@@ -354,7 +354,7 @@
             <span class="n">call</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">value</span>
 
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">call</span><span class="p">,</span> <span class="n">Call</span><span class="p">):</span>
-            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">call</span><span class="p">,</span> <span class="n">Str</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">call</span><span class="p">,</span> <span class="n">Constant</span><span class="p">):</span>
                 <span class="k">continue</span>
             <span class="k">elif</span> <span class="n">allow_callbacks</span><span class="p">:</span>
                 <span class="n">callback_body</span> <span class="o">+=</span> <span class="p">[</span><span class="n">e</span><span class="p">]</span>

@@ -1,0 +1,6 @@
+specular_losLambertianWeighted
+=========================================================
+
+.. currentmodule:: pyarts.workspace
+
+.. automethod:: Workspace.specular_losLambertianWeighted

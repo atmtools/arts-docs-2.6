@@ -914,6 +914,7 @@
       ~Workspace.spectral_radiance_profile_operatorPlaneParallel
       ~Workspace.specular_losCalc
       ~Workspace.specular_losCalcNoTopography
+      ~Workspace.specular_losLambertianWeighted
       ~Workspace.spt_calc_agendaSet
       ~Workspace.sunsAddSingleBlackbody
       ~Workspace.sunsAddSingleFromGrid

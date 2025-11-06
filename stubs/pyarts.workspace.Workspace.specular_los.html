@@ -8,7 +8,7 @@
     <link href="../_static/favicon-32x32.png" sizes="32x32" rel="icon" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-touch-icon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>specular_los &mdash; ARTS 2.6.16 documentation</title>
+  <title>specular_los &mdash; ARTS 2.6.18 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css" />
@@ -17,7 +17,7 @@
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=4cad51d7"></script>
+      <script src="../_static/documentation_options.js?v=00cf760c"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/js/theme.js"></script>
@@ -124,6 +124,7 @@ of a zenith and azimuth angle (the later only for 3D).</p>
 <table class="hlist"><tr><td><ul class="simple">
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.specular_losCalc.html#pyarts.workspace.Workspace.specular_losCalc" title="pyarts.workspace.Workspace.specular_losCalc"><code class="xref py py-func docutils literal notranslate"><span class="pre">specular_losCalc()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.specular_losCalcNoTopography.html#pyarts.workspace.Workspace.specular_losCalcNoTopography" title="pyarts.workspace.Workspace.specular_losCalcNoTopography"><code class="xref py py-func docutils literal notranslate"><span class="pre">specular_losCalcNoTopography()</span></code></a></p></li>
+<li><p><a class="reference internal" href="pyarts.workspace.Workspace.specular_losLambertianWeighted.html#pyarts.workspace.Workspace.specular_losLambertianWeighted" title="pyarts.workspace.Workspace.specular_losLambertianWeighted"><code class="xref py py-func docutils literal notranslate"><span class="pre">specular_losLambertianWeighted()</span></code></a></p></li>
 </ul>
 </td></tr></table>
 </section>
@@ -131,11 +132,12 @@ of a zenith and azimuth angle (the later only for 3D).</p>
 <h2>Workspace methods that require specular_los<a class="headerlink" href="#workspace-methods-that-require-specular-los" title="Link to this heading"></a></h2>
 <table class="hlist"><tr><td><ul class="simple">
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.SurfaceFlatScalarReflectivity.html#pyarts.workspace.Workspace.SurfaceFlatScalarReflectivity" title="pyarts.workspace.Workspace.SurfaceFlatScalarReflectivity"><code class="xref py py-func docutils literal notranslate"><span class="pre">SurfaceFlatScalarReflectivity()</span></code></a></p></li>
+<li><p><a class="reference internal" href="pyarts.workspace.Workspace.specular_losLambertianWeighted.html#pyarts.workspace.Workspace.specular_losLambertianWeighted" title="pyarts.workspace.Workspace.specular_losLambertianWeighted"><code class="xref py py-func docutils literal notranslate"><span class="pre">specular_losLambertianWeighted()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatReflectivity.html#pyarts.workspace.Workspace.surfaceFlatReflectivity" title="pyarts.workspace.Workspace.surfaceFlatReflectivity"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatReflectivity()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatRefractiveIndex.html#pyarts.workspace.Workspace.surfaceFlatRefractiveIndex" title="pyarts.workspace.Workspace.surfaceFlatRefractiveIndex"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatRefractiveIndex()</span></code></a></p></li>
-<li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatRvRh.html#pyarts.workspace.Workspace.surfaceFlatRvRh" title="pyarts.workspace.Workspace.surfaceFlatRvRh"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatRvRh()</span></code></a></p></li>
 </ul>
 </td><td><ul class="simple">
+<li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatRvRh.html#pyarts.workspace.Workspace.surfaceFlatRvRh" title="pyarts.workspace.Workspace.surfaceFlatRvRh"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatRvRh()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatRvRhEvEh.html#pyarts.workspace.Workspace.surfaceFlatRvRhEvEh" title="pyarts.workspace.Workspace.surfaceFlatRvRhEvEh"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatRvRhEvEh()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceFlatScalarReflectivity.html#pyarts.workspace.Workspace.surfaceFlatScalarReflectivity" title="pyarts.workspace.Workspace.surfaceFlatScalarReflectivity"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceFlatScalarReflectivity()</span></code></a></p></li>
 <li><p><a class="reference internal" href="pyarts.workspace.Workspace.surfaceTelsem.html#pyarts.workspace.Workspace.surfaceTelsem" title="pyarts.workspace.Workspace.surfaceTelsem"><code class="xref py py-func docutils literal notranslate"><span class="pre">surfaceTelsem()</span></code></a></p></li>
