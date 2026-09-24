@@ -18,6 +18,7 @@
       ~PredefinedModelData.__init__
       ~PredefinedModelData.fromxml
       ~PredefinedModelData.get_h2o_data_mtckd400
+      ~PredefinedModelData.get_h2o_data_mtckd430
       ~PredefinedModelData.readxml
       ~PredefinedModelData.savexml
       ~PredefinedModelData.set

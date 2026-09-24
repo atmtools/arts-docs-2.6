@@ -1,0 +1,6 @@
+self_texp
+==============================================
+
+.. currentmodule:: pyarts.arts.predef
+
+.. autoproperty:: MTCKD430WaterData.self_texp

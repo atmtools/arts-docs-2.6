@@ -1,0 +1,6 @@
+dobatch_disort_aux
+=============================================
+
+.. currentmodule:: pyarts.workspace
+
+.. autoproperty:: Workspace.dobatch_disort_aux

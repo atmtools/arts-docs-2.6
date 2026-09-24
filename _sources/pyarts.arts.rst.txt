@@ -430,6 +430,7 @@ Classes
    :toctree: stubs
 
    MTCKD400WaterData
+   MTCKD430WaterData
 
 
 
@@ -443,6 +444,7 @@ Functions
    get_foreign_h2o_ckdmt320
    get_foreign_h2o_ckdmt350
    get_foreign_h2o_ckdmt400
+   get_foreign_h2o_ckdmt430
    get_h2o_foreign_standard
    get_h2o_mpm89
    get_h2o_pwr2021
@@ -467,6 +469,7 @@ Functions
    get_self_h2o_ckdmt320
    get_self_h2o_ckdmt350
    get_self_h2o_ckdmt400
+   get_self_h2o_ckdmt430
    get_water_droplet_ell07
 
 

@@ -789,6 +789,7 @@
       ~Workspace.ppvar_magFromPath
       ~Workspace.ppvar_optical_depthFromPpvar_trans_cumulat
       ~Workspace.predefined_model_dataAddWaterMTCKD400
+      ~Workspace.predefined_model_dataAddWaterMTCKD430
       ~Workspace.predefined_model_dataInit
       ~Workspace.propmat_clearskyAddCIA
       ~Workspace.propmat_clearskyAddFaraday
@@ -1076,6 +1077,7 @@
       ~Workspace.dnlte_source_dx
       ~Workspace.dobatch_calc_agenda
       ~Workspace.dobatch_cloudbox_field
+      ~Workspace.dobatch_disort_aux
       ~Workspace.dobatch_irradiance_field
       ~Workspace.dobatch_radiance_field
       ~Workspace.dobatch_spectral_irradiance_field

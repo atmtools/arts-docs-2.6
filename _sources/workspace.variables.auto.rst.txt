@@ -64,6 +64,7 @@
     * :attr:`~pyarts.workspace.Workspace.dnlte_source_dx`
     * :attr:`~pyarts.workspace.Workspace.dobatch_calc_agenda`
     * :attr:`~pyarts.workspace.Workspace.dobatch_cloudbox_field`
+    * :attr:`~pyarts.workspace.Workspace.dobatch_disort_aux`
     * :attr:`~pyarts.workspace.Workspace.dobatch_irradiance_field`
     * :attr:`~pyarts.workspace.Workspace.dobatch_radiance_field`
     * :attr:`~pyarts.workspace.Workspace.dobatch_spectral_irradiance_field`

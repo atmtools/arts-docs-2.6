@@ -1,0 +1,6 @@
+ref_temp
+=============================================
+
+.. currentmodule:: pyarts.arts.predef
+
+.. autoproperty:: MTCKD430WaterData.ref_temp

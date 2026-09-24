@@ -1,0 +1,6 @@
+get_h2o_data_mtckd430
+=====================================================
+
+.. currentmodule:: pyarts.arts
+
+.. automethod:: PredefinedModelData.get_h2o_data_mtckd430

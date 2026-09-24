@@ -1,0 +1,6 @@
+__init__
+=============================================
+
+.. currentmodule:: pyarts.arts.predef
+
+.. automethod:: MTCKD430WaterData.__init__

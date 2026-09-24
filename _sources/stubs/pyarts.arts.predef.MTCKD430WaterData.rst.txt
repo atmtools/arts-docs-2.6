@@ -1,0 +1,37 @@
+﻿MTCKD430WaterData
+====================================
+
+.. currentmodule:: pyarts.arts.predef
+
+.. autoclass:: MTCKD430WaterData
+
+   
+   .. automethod:: __init__
+      :noindex:
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      ~MTCKD430WaterData.__init__
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      ~MTCKD430WaterData.for_absco_ref
+      ~MTCKD430WaterData.key
+      ~MTCKD430WaterData.ref_press
+      ~MTCKD430WaterData.ref_temp
+      ~MTCKD430WaterData.self_absco_ref
+      ~MTCKD430WaterData.self_texp
+      ~MTCKD430WaterData.wavenumbers
+   
+   

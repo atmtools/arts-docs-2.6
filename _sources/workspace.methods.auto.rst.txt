@@ -615,6 +615,7 @@
     * :func:`~pyarts.workspace.Workspace.ppvar_magFromPath`
     * :func:`~pyarts.workspace.Workspace.ppvar_optical_depthFromPpvar_trans_cumulat`
     * :func:`~pyarts.workspace.Workspace.predefined_model_dataAddWaterMTCKD400`
+    * :func:`~pyarts.workspace.Workspace.predefined_model_dataAddWaterMTCKD430`
     * :func:`~pyarts.workspace.Workspace.predefined_model_dataInit`
     * :func:`~pyarts.workspace.Workspace.PredefinedModelDataCreate`
     * :func:`~pyarts.workspace.Workspace.PredefinedModelDataSet`
